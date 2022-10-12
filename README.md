@@ -1,6 +1,6 @@
 # <p align="center"> Calculadora gasto de gás</p>
 
-<p align="center"> Esse projeto foi feito a pedido da minha namorada, que sempre tinha que fazer manualmente, é uma calculadora aonde colocando os dados pedidos ele mostra quantos reais foi gasto na sua receita</p>
+<p align="center"> Esse projeto foi feito a pedido da minha namorada, que sempre tinha que fazer manualmente, é uma calculadora aonde colocando os dados pedidos ele mostra quantos reais foi gasto na sua receita.</p>
 
 <p align="center">
  <a href="#features">Features</a> •
