@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super contador</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de gasto de gás</h1>
+    </header>
+    <section>
+      <div id="dados">
+        <p id="t">
+          Tempo de uso em minutos:
+          <br /><input type="number" name="inicio" id="txt1" />
+        </p>
+        <p id="kg">
+          Consumo do queimador (ver no manual do fabricante do fogão):
+          <br />
+          <input type="number" name="fim" id="txt2" />
+        </p>
+        <p id="b">
+          Capacidade do botijão (13 ou 45 kg):
+          <br />
+          <input type="number" name="passo" id="txt3" />
+        </p>
+
+        <p id="pb">
+          Preço do botijão de gás na sua cidade:
+          <br /><input type="number" name="passo" id="txt4" />
+        </p>
+        <p>
+          <input type="button" value="Contar" onclick="contar() " id="go" />
+        </p>
+      </div>
+      <div id="res">Preparando a contagem...</div>
+    </section>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
